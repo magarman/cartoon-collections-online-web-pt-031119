@@ -8,6 +8,7 @@ end
 
 def long_planeteer_calls(calls)
   calls.any? {|calls| calls.size < 4}
+  calls.any? {|calls| calls.size > 4}
 end
 
 
