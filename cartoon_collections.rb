@@ -13,6 +13,6 @@ end
 
 
 def find_the_cheese(array)
-  if array.include? 
+  if array.include?cheese
     "#{cheese_types}"
 end
