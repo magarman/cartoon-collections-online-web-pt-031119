@@ -3,10 +3,7 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(planeteer_calls)
-  pcalls2 = []
-  planeteer_calls.collect {|calls| pcalls2 << "#{calls.upcase}!"}
-end
-pcalls2
+  planeteer_calls.collect {|calls| "#{calls.upcase}!"}
 end
 
 def long_planeteer_calls# code an argument here
