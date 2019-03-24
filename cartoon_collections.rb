@@ -13,6 +13,6 @@ end
 
 
 def find_the_cheese(array)
-  if array.include?(cheese)
+  if array.include?(cheddar)
 else no_cheese 
 end
